@@ -1534,6 +1534,103 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
+		<equipment keywords="Gauge Block Set" enteredBy ="Chris Young">
+		<id>MSLE.L.161</id>
+		<manufacturer>Mitutoyo</manufacturer>
+		<model>516-466-60 BM4-32-0/YJ</model>
+		<serial>2600154</serial>
+		<description>A set of 32 gauge blocks (rectangular cross section) of nominal lengths 1 mm to 60 mm.</description>
+		<specifications>
+			<grade>0</grade>
+			<metric>true</metric>
+			<material>steel</material>
+			<youngsmodulus unit ="GPa">200</youngsmodulus>
+			<poissonsratio unit ="dimensionless">0.23</poissonsratio>
+			<expansioncoefficient unit ="/C">10.8</expansioncoefficient>
+			<expansioncoefficient_uncertainty unit ="/C">0.29</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">0</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0</stdu_dependent>
+			<stdu_independent unit ="nm">0</stdu_independent>
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Length" calibrationInterval="5">
+				<component name="Gauge Block Set">
+					<report id="2650172" enteredBy="Chris Young">
+						<reportIssueDate>2026-01-15</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-01-14</measurementStartDate>
+						<measurementStopDate>2026-01-14</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>Not Stated in Report</technicalProcedure>
+						<conditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double        , string          , double          , double             , int</type>
+							<unit>  mm            , no unit         , um              , um                 , no unit</unit>
+							<header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
+							<data>
+								1,25637,0.03,0.03,50
+								1.005,25563,0.06,0.03,50
+								1.01,25599,0.01,0.03,50
+								1.02,25558,-0.01,0.03,50
+								1.03,25569,0.03,0.03,50
+								1.04,25550,-0.01,0.03,50
+								1.05,25582,0.04,0.03,50
+								1.06,26517,-0.03,0.03,50
+								1.07,25546,0.01,0.03,50
+								1.08,25560,0.03,0.03,50
+								1.09,26535,0.04,0.03,50
+								1.1,25557,0.04,0.03,50
+								1.2,25561,-0.04,0.03,50
+								1.3,25517,-0.02,0.03,50
+								1.4,25566,0.01,0.03,50
+								1.5,25625,0.03,0.03,50
+								1.6,25505,0.02,0.03,50
+								1.7,25527,-0.01,0.03,50
+								1.8,25555,0.06,0.03,50
+								1.9,25513,0.03,0.03,50
+								2,25599,0.05,0.03,50
+								3,25553,-0.02,0.03,50
+								4,25075,0.05,0.03,50
+								5,25111,0.06,0.03,50
+								6,25083,0.06,0.03,50
+								7,25002,0.05,0.03,50
+								8,25010,0.06,0.03,50
+								9,25069,0.06,0.03,50
+								10,25134,0.02,0.03,50
+								20,25087,0.01,0.03,50
+								30,25018,0.05,0.03,50
+								60,16021,0.09,0.03,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2026</purchaseYear>
+				<warrantyExpirationDate>2026-01-01</warrantyExpirationDate>
+				<capitalExpenditure>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.007</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
 	<equipment keywords="Gauge Block Set" enteredBy ="Chris Young">
 		<id>MSLE.L.151</id>
 		<manufacturer>Mitutoyo</manufacturer>
@@ -2096,8 +2193,14 @@
 			<accessories></accessories>
 			<documentation></documentation>
 			<financial>
-				<purchaseYear>2000</purchaseYear>
-				<warrantyExpirationDate>2001-01-01</warrantyExpirationDate>
+				<purchaseYear>2026</purchaseYear>
+				<warrantyExpirationDate>2026-01-01</warrantyExpirationDate>
+				<capitalExpenditure>
+					<assetNumber>Contact Finance</assetNumber>
+					<depreciationStartDate>2025-05-29</depreciationStartDate>
+					<price currency="NZD">38035.10</price>
+					<usefulLife>8</usefulLife>
+				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
 			<technicalProcedures>
