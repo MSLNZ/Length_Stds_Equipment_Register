@@ -1534,7 +1534,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-		<equipment keywords="Gauge Block Set" enteredBy ="Chris Young">
+	<equipment keywords="Gauge Block Set" enteredBy ="Chris Young">
 		<id>MSLE.L.161</id>
 		<manufacturer>Mitutoyo</manufacturer>
 		<model>516-466-60 BM4-32-0/YJ</model>
@@ -3622,6 +3622,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/556" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0222*(1+3.91779E-3*t - 6.528E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0037/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -3673,6 +3697,30 @@
 						<equation>
 							<value variables="t">100.0209*(1+3.91798E-3*t - 6.589E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0039/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/557" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0211*(1+3.91786E-3*t - 6.542E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0038/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -3744,6 +3792,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/558" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0241*(1+3.91825E-3*t - 6.549E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0033/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -3795,6 +3867,30 @@
 						<equation>
 							<value variables="t">100.0282*(1+3.91730E-3*t - 6.591E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/559" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0286*(1+3.91722E-3*t - 6.591E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0036/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -3866,6 +3962,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/560" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0219*(1+3.91700E-3*t - 6.539E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -3917,6 +4037,30 @@
 						<equation>
 							<value variables="t">100.0146*(1+3.91721E-3*t - 6.619E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0039/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/561" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0151*(1+3.91703E-3*t - 6.592E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0035/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -3988,6 +4132,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/562" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0277*(1+3.91759E-3*t - 6.531E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0033/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>	
 				</component>
 			</measurand>
 		</calibrations>
@@ -4039,6 +4207,54 @@
 						<equation>
 							<value variables="t">100.0293*(1+3.91841E-3*t - 6.649E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0046/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/563" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0308*(1+3.91761E-3*t - 6.547E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0041/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/563" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0308*(1+3.91761E-3*t - 6.547E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0041/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -4110,6 +4326,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/564" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0220*(1+3.91806E-3*t - 6.580E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4161,6 +4401,30 @@
 						<equation>
 							<value variables="t">100.0083*(1+3.91847E-3*t - 6.840E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0023</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/565" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0101*(1+3.91697E-3*t - 6.551E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -4232,6 +4496,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/566" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0181*(1+3.91753E-3*t - 6.598E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0031/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4283,6 +4571,30 @@
 						<equation>
 							<value variables="t">100.0260*(1+3.91829E-3*t - 6.566E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0020</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/567" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0268*(1+3.91755E-3*t - 6.372E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0035/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -4354,6 +4666,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/568" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0305*(1+3.91717E-3*t - 6.491E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4405,6 +4741,30 @@
 						<equation>
 							<value variables="t">100.0131*(1+3.91890E-3*t - 6.708E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00195</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/569" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0143*(1+3.91820E-3*t - 6.567E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -4476,6 +4836,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/570" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">99.9950*(1+3.91834E-3*t - 6.558E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4537,6 +4921,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/571" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0078*(1+3.91874E-3*t - 6.610E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0034/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4588,6 +4996,30 @@
 						<equation>
 							<value variables="t">100.0263*(1+3.91911E-3*t - 6.704E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0021</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/572" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0270*(1+3.91861E-3*t - 6.581E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0036/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -4660,6 +5092,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/573" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0173*(1+3.91798E-3*t - 6.540E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0032/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4721,6 +5177,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/574" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">99.9942*(1+3.91865E-3*t - 6.513E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0035/2</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -4772,6 +5252,30 @@
 						<equation>
 							<value variables="t">100.0148*(1+3.91819E-3*t - 6.627E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/575" enteredBy="Chris Young">
+						<reportIssueDate>2026-09-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-09-04</measurementStartDate>
+						<measurementStopDate>2026-09-05</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit="mm">260</immersion>
+							<current unit="mA">1</current>
+						</conditions>
+						<acceptanceCriteria />
+						<equation>
+							<value variables="t">100.0151*(1+3.91798E-3*t - 6.571E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0033/2</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
