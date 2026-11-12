@@ -2671,7 +2671,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">532.245576449053</value>
+							<value variables="">532.245521245360</value>
 							<uncertainty variables="">0.00000011</uncertainty>
 							<unit>nm</unit>
 							<ranges></ranges>
